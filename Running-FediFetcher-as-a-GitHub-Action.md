@@ -6,7 +6,7 @@ The disadvantage is that you have limited control over this, and that you cannot
 
 1. [Get an Access Token, if you haven't done so already](https://github.com/nanos/FediFetcher/wiki/Getting-an-access-token-for-FediFetcher)
 1. [Fork this repository](https://github.com/nanos/FediFetcher/fork)
-2. Add your [access token](https://github.com/nanos/FediFetcher/wiki/Getting-an-access-token-for-FediFetcher) as a Secret:
+2. Add your access token as a Secret:
    1.  Within your newly created fork, go to Settings > Secrets and Variables > Actions
    2.  Click New Repository Secret
       ![github actions setup](https://github.com/user-attachments/assets/eacfd716-abe7-45de-87f7-68e5c61e2912)
