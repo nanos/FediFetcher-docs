@@ -5,12 +5,12 @@ The disadvantage is that you have limited control over this, and that you cannot
 To run FediFetcher as a GitHub ActionL
 
 1. [Fork this repository](https://github.com/nanos/FediFetcher/fork)
-2. Add your [access token]() as a Secret:
+2. Add your [access token](https://github.com/nanos/FediFetcher/wiki/Getting-an-access-token-for-FediFetcher) as a Secret:
    1.  Within your newly created fork, go to Settings > Secrets and Variables > Actions
    2.  Click New Repository Secret
       ![github actions setup](https://github.com/user-attachments/assets/eacfd716-abe7-45de-87f7-68e5c61e2912)
    3.  Supply the Name `ACCESS_TOKEN` and provide the Token generated above as Secret
-3. Create a file called `config.json` with your [configuration options](./config.md) in the repository root. **Do NOT include the Access Token in your `config.json`!**
+3. Create a file called `config.json` with your [configuration options](https://github.com/nanos/FediFetcher/wiki/FediFetcher-configuration-options) in the repository root. **Do NOT include the Access Token in your `config.json`!**
 4. Finally go to the Actions tab and enable the action. The action should now automatically run approximately once every 10 min.
 
 > [!NOTE]
