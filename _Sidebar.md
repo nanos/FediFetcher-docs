@@ -6,3 +6,4 @@
    - [from a container](https://github.com/nanos/FediFetcher/wiki/Running-FediFetcher-from-a-container)
    - [as systemd timer](https://github.com/nanos/FediFetcher/wiki/Running-FediFetcher-as-a-systemd-timer)
 4. [Configuration Options](https://github.com/nanos/FediFetcher/wiki/FediFetcher-configuration-options)
+5. [Access Token Scopes](https://github.com/nanos/FediFetcher/wiki/Access-Token-Scopes)
