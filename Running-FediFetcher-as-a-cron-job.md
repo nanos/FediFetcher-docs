@@ -7,7 +7,7 @@ Tu run FediFetcher as a cron job:
 3. Create a `json` file with [your configuration options](https://github.com/nanos/FediFetcher/wiki/FediFetcher-configuration-options). You may wish to store this in the `./artifacts` directory, as that directory is `.gitignore`d
 4. Then simply run this script like so: `python find_posts.py -c=./artifacts/config.json`.
 
-If desired, all configuration options can be provided as command line flags, instead of through a JSON file. An [example script](https://github.com/nanos/FediFetcher/examples/FediFetcher.sh) can be found in the `examples` folder.
+If desired, all configuration options can be provided as command line flags, instead of through a JSON file. An [example script](https://github.com/nanos/FediFetcher/blob/main/examples/FediFetcher.sh) can be found in the `examples` folder.
 
 When using a cronjob, we are using file based locking to avoid multiple overlapping executions of the script. The timeout period for the lock can be configured using `lock-hours`.
 
