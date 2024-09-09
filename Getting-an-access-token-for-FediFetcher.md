@@ -4,7 +4,7 @@ Regardless of how you want to run FediFetcher, you must first get an access toke
 
 1. In Mastodon go to Preferences > Development > New Application
    1. Give it a nice name
-   2. Enable the required scopes for your options. You could tick `read` and `admin:read:accounts`, or see below for a list of which scopes are required for which options.
+   2. Enable the required scopes for your options. You could tick `read` and `admin:read:accounts`, or see [the docs](https://github.com/nanos/FediFetcher/wiki/Access-Token-Scopes) for a list of which scopes are required for which options.
    3. Save
    4. Copy the value of `Your access token`
 
