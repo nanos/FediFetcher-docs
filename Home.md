@@ -16,4 +16,22 @@ This documentation outlines how to run and configure FediFetcher:
    - Running FediFetcher as a Scheduled Task in Windows<br>
      Ideal if you are a Windows User and your main device is (almost) always running.
 
-3. To find all available configuration options, read [FediFetcher configuration options](https://github.com/nanos/FediFetcher/wiki/FediFetcher-configuration-options)
+3. Configure FediFetcher:
+
+   By default, pretty much all options are turned off for FediFetcher. FediFetcher has quite a few configuration options, so here is my quick configuration advice, that should probably work for most people:<br>   
+   
+   ```json
+   {
+     "access-token": "Your access token",
+     "server": "your.mastodon.server",
+     "home-timeline-length": 200,
+     "max-followings": 80,
+     "from-notifications": 1
+   }
+   ```
+>[!CAUTION]
+   >
+   > **Remove the `access-token` from the `config.json`** when running FediFetcher as GitHub Action. When running FediFetcher as GitHub Action **ALWAYS** [set the Access Token as an Action Secret](https://github.com/nanos/FediFetcher/wiki/Running-FediFetcher-as-a-GitHub-Action).
+  
+  
+   To find all available configuration options, read [FediFetcher configuration options](https://github.com/nanos/FediFetcher/wiki/FediFetcher-configuration-options)
