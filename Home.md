@@ -1,9 +1,9 @@
-This documentation outlines how to run and configure FediFetcher.
+This documentation outlines how to run and configure FediFetcher:
 
 1. Regardless of how you want to run FediFetcher, you must first get an access token:<br>
    [Getting an Access Token for FediFetcher](https://github.com/nanos/FediFetcher/wiki/Getting-an-access-token-for-FediFetcher)
 
-2. Once you have to your access token, there are multiple ways of running FediFetcher. None of these require you to have CLI/SSH access to your mastodon server. These include, but aren't limited to:<br>
+2. Once you have to your access token, there are multiple ways of running FediFetcher. None of these require you to have CLI/SSH access to your mastodon server. Pick one of the following options:<br>
 
    -  [Running FediFetcher as a GitHub Action](https://github.com/nanos/FediFetcher/wiki/Running-FediFetcher-as-a-GitHub-Action)<br>
       Ideal if you don't have your own hardware, and/or have little experience running servers. This is all point and click within GitHub's interface.
