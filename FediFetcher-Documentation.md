@@ -1,4 +1,4 @@
-This wiki outlines how to run and configure FediFetcher.
+This documentation outlines how to run and configure FediFetcher.
 
 1. Regardless of how you want to run FediFetcher, you must first get an access token:<br>
    [Getting an Access Token for FediFetcher](https://github.com/nanos/FediFetcher/wiki/Getting-an-access-token-for-FediFetcher)
