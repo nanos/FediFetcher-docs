@@ -2,6 +2,7 @@ Running FediFetcher as a cron job is in many ways the best way of running FediFe
 
 Tu run FediFetcher as a cron job:
 
+1. [Get an Access Token, if you haven't done so already](https://github.com/nanos/FediFetcher/wiki/Getting-an-access-token-for-FediFetcher)
 1. Clone this repository.
 2. Install requirements: `pip install -r requirements.txt`
 3. Create a `json` file with [your configuration options](https://github.com/nanos/FediFetcher/wiki/FediFetcher-configuration-options). You may wish to store this in the `./artifacts` directory, as that directory is `.gitignore`d
