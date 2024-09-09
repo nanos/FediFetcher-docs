@@ -1,0 +1,1 @@
+This Wiki is the new place for all FediFetcher documentation
