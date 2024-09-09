@@ -35,7 +35,7 @@ If you prefer running FediFetcher from a systemd timer you can follow these step
     deactivate
     ```
 
-8. Configure FediFetcher according to the instructions provided at: [Configuration Options](https://github.com/nanos/FediFetcher?tab=readme-ov-file#configuration-options).
+8. Configure FediFetcher according to the instructions provided at: [Configuration Options](https://github.com/nanos/FediFetcher/wiki/FediFetcher-configuration-options).
 
 9. Run FediFetcher for the first time:
     ```bash
