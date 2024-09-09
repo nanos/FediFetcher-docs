@@ -1,5 +1,7 @@
 If you prefer running FediFetcher from a systemd timer you can follow these steps:
 
+1. [Get an Access Token, if you haven't done so already](https://github.com/nanos/FediFetcher/wiki/Getting-an-access-token-for-FediFetcher).
+
 1. Navigate to the directory `/opt`:
     ```bash
     cd /opt
