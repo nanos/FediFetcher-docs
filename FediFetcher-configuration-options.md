@@ -2,7 +2,7 @@ FediFetcher has quite a few configuration options, so here is my quick configura
 
 > [!CAUTION]
 >
-> **Remove the `access-token` from the `config.json`** when running FediFetcher as GitHub Action. When running FediFetcher as GitHub Action **ALWAYS** [set the Access Token as an Action Secret](./github-actions.md).
+> **Remove the `access-token` from the `config.json`** when running FediFetcher as GitHub Action. When running FediFetcher as GitHub Action **ALWAYS** [set the Access Token as an Action Secret](https://github.com/nanos/FediFetcher/wiki/Running-FediFetcher-as-a-GitHub-Action).
 
 ```json
 {
