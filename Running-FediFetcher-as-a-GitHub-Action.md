@@ -17,4 +17,3 @@ To run FediFetcher as a GitHub ActionL
 >
 > Keep in mind that [the schedule event can be delayed during periods of high loads of GitHub Actions workflow runs](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule).
 
-For other options of running FediFetcher see the [README file](../README.md).
