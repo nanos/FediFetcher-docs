@@ -11,7 +11,7 @@ This documentation outlines how to run and configure FediFetcher:
      Ideal if you already have a linux device, and want to simply run FediFetcher on there.
    - [Running FediFetcher from a container](https://github.com/nanos/FediFetcher/wiki/Running-FediFetcher-from-a-container)<br>
       Ideal if you are familiar with containers.
-   - [Running FediFetcher as a systemd timer](https://github.com/nanos/FediFetcher/wiki/Running-FediFetcher-as-a-systemd-timer.)<br>
+   - [Running FediFetcher as a systemd timer](https://github.com/nanos/FediFetcher/wiki/Running-FediFetcher-as-a-systemd-timer)<br>
      Ideal if you have a linux device somewhere, but don't like cron jobs.
    - Running FediFetcher as a Scheduled Task in Windows<br>
      Ideal if you are a Windows User and your main device is (almost) always running.
