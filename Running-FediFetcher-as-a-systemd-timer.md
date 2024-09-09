@@ -63,8 +63,8 @@ If you prefer running FediFetcher from a systemd timer you can follow these step
     [Install]
     WantedBy=multi-user.target
     ```
-
-11. Create a systemd timer file for FediFetcher (replace `User=mastodon` with another user, if needed).
+    (replace `User=mastodon` with another user, if needed)
+11. Create a systemd timer file for FediFetcher.
     ```bash
     nano /etc/systemd/system/fedifetcher.timer
     ```
