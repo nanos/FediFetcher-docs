@@ -8,7 +8,7 @@ After the Python installer file has finished downloading, launch it by double-cl
 
 ![Python installer](https://github.com/user-attachments/assets/bb0257df-ff2d-4918-ae05-15a829559151)
 
-Once install is finished, open the Windows Command Prompt by launching cmd.exe, type pip and hit Return. You should get the generic PIP help dialogs. If it shows an error, go through install processes again and make sure you choose to in Add Python to Path.
+Once install is finished, open the Windows Command Prompt by launching `cmd.exe`, type `pip` and hit Return. You should get the generic PIP help dialogs. If it shows an error, go through install processes again and make sure you choose to in Add Python to Path.
 
 ## Install FediFetcher
 
