@@ -80,4 +80,4 @@ Whenever a new version of FediFetcher is released, you can update in a few simpl
 4. Update your dependencies:
    ```bash
    pip install -r requirements.txt
-  ```
+   ```
