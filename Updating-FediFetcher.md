@@ -12,15 +12,17 @@ You may subscribe to new releases using GitHub's 'Watch' feature:
 
 You should now get an email for every new release.
 
+## Updating FediFetcher
+
 How you update depends on how you are running FediFetcher:
 
-## Update your GitHub Action
+### If running as GitHub Action
 
 Simply navigate to your fork of FediFetcher, then click 'Sync Fork', and then 'Update Branch':
 
 <img width="928" alt="image" src="https://github.com/user-attachments/assets/976bc500-910c-4776-ba5a-d8b983bd58f1">
 
-## Update FediFetcher, if running as a cron job
+### If running as a cron job
 
 1. Update your copy of FediFetcher:
    ```bash
@@ -31,7 +33,7 @@ Simply navigate to your fork of FediFetcher, then click 'Sync Fork', and then 'U
    pip install -r requirements.txt
    ```
 
-## Upate FediFetcher, if running as a system timer:
+### If running as a systemd timer:
 
 1. Navigate to your FediFetcher directory:
    ```bash
@@ -46,7 +48,7 @@ Simply navigate to your fork of FediFetcher, then click 'Sync Fork', and then 'U
    pip install -r requirements.txt
    ```
 
-## Update FediFetcher, if running as a Windows Scheduled Task:
+### If running as a Windows Scheduled Task:
 
 1. Open your command prompt
 2. Navigate to `C:\FediFetcher`
