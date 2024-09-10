@@ -98,21 +98,8 @@ If you prefer running FediFetcher from a systemd timer you can follow these step
 
 With these steps, FediFetcher should be successfully set up on your system and automatically started to fetch posts regularly.
 
-## Update FediFetcher
+## Updating FediFetcher
 
 It's important to stay up to with FediFetcher so you always get the latest features and bugfixes.
 
-Whenever a new version of FediFetcher is released, you can update in a few simple steps:
-
-1. Navigate to your FediFetcher directory:
-   ```bash
-   cd /opt/FediFetcher
-   ```
-3. Update your copy of FediFetcher:
-   ```bash
-   git pull
-   ```
-4. Update your dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+Please refer to the [Updating FediFetcher documentation](https://github.com/nanos/FediFetcher/wiki/Updating-FediFetcher) for more information.
