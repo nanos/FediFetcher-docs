@@ -28,12 +28,13 @@ This documentation outlines how to run and configure FediFetcher:
      "max-followings": 80,
      "from-notifications": 1
    }
+  
+   To find all available configuration options, read [FediFetcher configuration options](https://github.com/nanos/FediFetcher/wiki/FediFetcher-configuration-options)
+
    ```
 >[!CAUTION]
    >
    > **Remove the `access-token` from the `config.json`** when running FediFetcher as GitHub Action. When running FediFetcher as GitHub Action **ALWAYS** [set the Access Token as an Action Secret](https://github.com/nanos/FediFetcher/wiki/Running-FediFetcher-as-a-GitHub-Action).
-  
-  
-   To find all available configuration options, read [FediFetcher configuration options](https://github.com/nanos/FediFetcher/wiki/FediFetcher-configuration-options)
+ 
 
 4. It's really important you keep FediFetcher up to date. Please check the [Updating FediFetcher documentation](https://github.com/nanos/FediFetcher/wiki/Updating-FediFetcher), for details on how to be notified of new releases, and how to install updates.
