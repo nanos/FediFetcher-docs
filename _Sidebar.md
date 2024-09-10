@@ -7,4 +7,5 @@
    - [as systemd timer](https://github.com/nanos/FediFetcher/wiki/Running-FediFetcher-as-a-systemd-timer)
    - [as a Windows Scheduled Task](https://github.com/nanos/FediFetcher/wiki/Running-FediFetcher-as-a-Scheduled-Task-in-Windows)
 4. [Configuration Options](https://github.com/nanos/FediFetcher/wiki/FediFetcher-configuration-options)
-5. [Access Token Scopes](https://github.com/nanos/FediFetcher/wiki/Access-Token-Scopes)
+4. [Updating FediFetcher](https://github.com/nanos/FediFetcher/wiki/Updating-FediFetcher)
+6. [Access Token Scopes](https://github.com/nanos/FediFetcher/wiki/Access-Token-Scopes)
