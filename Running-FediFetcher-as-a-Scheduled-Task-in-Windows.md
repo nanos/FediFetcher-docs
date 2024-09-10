@@ -4,7 +4,7 @@ Running FediFetcher as a Scheduled Task in Windows is an option if you are a Win
 
 FediFetcher requires Python to run. The best way to install Python on Windows is by downloading the official Python installer from the Python website at https://www.python.org/downloads/
 
-After the Python installer file has finished downloading, launch it by double-clicking on it in order to begin the installation. Be sure to select, make sure the "Add Python to PATH".
+After the Python installer file has finished downloading, launch it by double-clicking on it in order to begin the installation. Be sure to select, make sure the "Add python.exe to PATH".
 
 ![Python installer](https://github.com/user-attachments/assets/bb0257df-ff2d-4918-ae05-15a829559151)
 
