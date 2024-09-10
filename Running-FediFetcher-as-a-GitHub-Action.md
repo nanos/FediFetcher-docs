@@ -18,3 +18,11 @@ The disadvantage is that you have limited control over this, and that you cannot
 >
 > Keep in mind that [the schedule event can be delayed during periods of high loads of GitHub Actions workflow runs](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule).
 
+## Updating FediFetcher
+
+It's important to stay up to with FediFetcher so you always get the latest features and bugfixes.
+
+Whenever a new version of FediFetcher is released, simply click 'Sync Fork' and then 'Update Branch':
+
+<img width="928" alt="image" src="https://github.com/user-attachments/assets/976bc500-910c-4776-ba5a-d8b983bd58f1">
+
