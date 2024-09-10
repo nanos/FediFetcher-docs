@@ -12,6 +12,8 @@ You may subscribe to new releases using GitHub's 'Watch' feature:
 
 You should now get an email for every new release.
 
+You may additionally want to subscribe to the #FediFetcher hashtag on your instance, as that's where I post any relevant updates and announcements.
+
 ## Updating FediFetcher
 
 How you update depends on how you are running FediFetcher. Always read the release notes to see if there is anything noteworthy mentioned in there, but these are the general steps to take update FediFetcher, depending on your chosen method of running it:
