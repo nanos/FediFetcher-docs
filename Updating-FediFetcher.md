@@ -14,7 +14,7 @@ You should now get an email for every new release.
 
 ## Updating FediFetcher
 
-How you update depends on how you are running FediFetcher:
+How you update depends on how you are running FediFetcher. Always read the release notes to see if there is anything noteworthy mentioned in there, but these are the general steps to take update FediFetcher, depending on your chosen method of running it:
 
 ### If running as GitHub Action
 
