@@ -14,6 +14,10 @@ The disadvantage is that you have limited control over this, and that you cannot
 3. Create a file called `config.json` with your [configuration options](https://github.com/nanos/FediFetcher/wiki/FediFetcher-configuration-options) in the repository root. **Do NOT include the Access Token in your `config.json`!**
 4. Finally go to the Actions tab and enable the action. The action should now automatically run approximately once every 10 min.
 
+> [!CAUTION]
+>
+> **Do not include the the `access-token` from the `config.json`** when running FediFetcher as GitHub Action. When running FediFetcher as GitHub Action **ALWAYS** set the Access Token as an Action Secret, as described above. If you have accidentally saved the token in the `config.json`, consider it compromised and regenerate it immediately.
+
 > [!NOTE]
 >
 > Keep in mind that [the schedule event can be delayed during periods of high loads of GitHub Actions workflow runs](https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#schedule).
