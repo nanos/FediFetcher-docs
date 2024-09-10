@@ -42,7 +42,7 @@ This guide assumes you are installing FediFetcher at `C:\FediFetcher`. If you in
 It's best to run FediFetcher once before you set it up on a schedule:
 
 ```bash
-C:\FediFetcher\find_posts.py -c=C:\FediFetcher\artifacts\config.json
+.\find_posts.py -c=.\artifacts\config.json
 ```
 
 Make sure everything is working, and you don't encounter any errors. This first run may take several hours to complete, so be patient.
