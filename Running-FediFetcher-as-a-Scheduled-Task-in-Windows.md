@@ -49,7 +49,7 @@ Make sure everything is working, and you don't encounter any errors. This first 
 
 ## Setup FediFetcher to run on a schedule via Task Scheduler
 
-1. Open Task Scheduler by pressing the Windows key and by typing 'Task Scheduler' and pressing Enter.
+1. Open Task Scheduler by pressing the Windows key, typing 'Task Scheduler', and pressing Enter.
 2. On the far right, choose 'Create basic task.'
 3. Choose a name (e.g. FediFetcher), and optionally, enter a description so down the road you know what the task is about. Click next
 4. For trigger choose 'When the Computer Starts.' Click Next.
