@@ -16,7 +16,9 @@ You may additionally want to subscribe to the #FediFetcher hashtag on your insta
 
 ## Updating FediFetcher
 
-How you update depends on how you are running FediFetcher. Always read the release notes to see if there is anything noteworthy mentioned in there, but these are the general steps to take update FediFetcher, depending on your chosen method of running it:
+How you update depends on how you are running FediFetcher.
+
+Always read the release notes to see if there is anything noteworthy mentioned in there, but these are the general needed to take update FediFetcher, depending on your chosen method of running it:
 
 ### If running as GitHub Action
 
