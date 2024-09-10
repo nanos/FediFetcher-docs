@@ -65,19 +65,8 @@ Make sure everything is working, and you don't encounter any errors. This first 
 
 FediFetcher is now set up to run as a Scheduled Task. You can right click the task to run it now or the next time you restart your computer, it will be set to run on a schedule.
 
-## Update FediFetcher
+## Updating FediFetcher
 
 It's important to stay up to with FediFetcher so you always get the latest features and bugfixes.
 
-Whenever a new version of FediFetcher is released, you can update in a few simple steps:
-
-1. Open your command prompt
-2. Navigate to `C:\FediFetcher`
-3. Update your copy of FediFetcher:
-   ```bash
-   git pull
-   ```
-4. Update your dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+Please refer to the [Updating FediFetcher documentation](https://github.com/nanos/FediFetcher/wiki/Updating-FediFetcher) for more information.
