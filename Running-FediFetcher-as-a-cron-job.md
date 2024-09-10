@@ -16,18 +16,8 @@ When using a cronjob, we are using file based locking to avoid multiple overlapp
 >
 > If you are running FediFetcher locally, my recommendation is to run it manually once, before turning on the cron job: The first run will be significantly slower than subsequent runs, and that will help you prevent overlapping during that first run.
 
-
-## Update FediFetcher
+## Updating FediFetcher
 
 It's important to stay up to with FediFetcher so you always get the latest features and bugfixes.
 
-Whenever a new version of FediFetcher is released, you can update in a few simple steps:
-
-1. Update your copy of FediFetcher:
-   ```bash
-   git pull
-   ```
-2. Update your dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+Please refer to the [Updating FediFetcher documentation](https://github.com/nanos/FediFetcher/wiki/Updating-FediFetcher) for more information.
