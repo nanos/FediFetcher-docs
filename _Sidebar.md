@@ -5,5 +5,6 @@
    - [as cron job](https://github.com/nanos/FediFetcher/wiki/Running-FediFetcher-as-a-cron-job)
    - [from a container](https://github.com/nanos/FediFetcher/wiki/Running-FediFetcher-from-a-container)
    - [as systemd timer](https://github.com/nanos/FediFetcher/wiki/Running-FediFetcher-as-a-systemd-timer)
+   - [as a Windows Scheduled Task](https://github.com/nanos/FediFetcher/wiki/Running-FediFetcher-as-a-Scheduled-Task-in-Windows)
 4. [Configuration Options](https://github.com/nanos/FediFetcher/wiki/FediFetcher-configuration-options)
 5. [Access Token Scopes](https://github.com/nanos/FediFetcher/wiki/Access-Token-Scopes)
