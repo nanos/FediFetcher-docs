@@ -16,7 +16,7 @@ The disadvantage is that you have limited control over this, and that you cannot
 
 > [!CAUTION]
 >
-> **Do not include the `access-token` from the `config.json`** when running FediFetcher as GitHub Action. When running FediFetcher as GitHub Action **ALWAYS** set the Access Token as an Action Secret, as described above. If you have accidentally saved the token in the `config.json`, consider it compromised and regenerate it immediately.
+> **Do not include the `access-token` in the `config.json`** when running FediFetcher as GitHub Action. When running FediFetcher as GitHub Action **ALWAYS** set the Access Token as an Action Secret, as described above. If you have accidentally saved the token in the `config.json`, consider it compromised and regenerate it immediately.
 
 > [!NOTE]
 >
