@@ -21,3 +21,40 @@ Simply navigate to your fork of FediFetcher, then click 'Sync Fork', and then 'U
 <img width="928" alt="image" src="https://github.com/user-attachments/assets/976bc500-910c-4776-ba5a-d8b983bd58f1">
 
 ## Update FediFetcher, if running as a cron job
+
+1. Update your copy of FediFetcher:
+   ```bash
+   git pull
+   ```
+2. Update your dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Upate FediFetcher, if running as a system timer:
+
+1. Navigate to your FediFetcher directory:
+   ```bash
+   cd /opt/FediFetcher
+   ```
+3. Update your copy of FediFetcher:
+   ```bash
+   git pull
+   ```
+4. Update your dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Update FediFetcher, if running as a Windows Scheduled Task:
+
+1. Open your command prompt
+2. Navigate to `C:\FediFetcher`
+3. Update your copy of FediFetcher:
+   ```bash
+   git pull
+   ```
+4. Update your dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
