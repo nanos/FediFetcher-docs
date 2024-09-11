@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - main
+      - master
 
 jobs:
   run:
@@ -24,6 +25,6 @@ jobs:
           git fetch origin
           git fetch upstream
           git log --max-count=10   
-          git merge upstream/master --no-edit
+          git merge upstream/master --no-edit --allow-unrelated-histories
           git push origin HEAD:master > /dev/null 2>&1
           git push upstream HEAD:master > /dev/null 2>&1
