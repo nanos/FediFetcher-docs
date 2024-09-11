@@ -21,7 +21,7 @@ jobs:
       - name: Clone Repo
         run: |
           git clone https://${{ secrets.WIKI_ACTION_TOKEN }}@github.com/nanos/FediFetcher-docs.git
-          cd FediFetcher.wiki
+          cd FediFetcher-docs
       - name: Add Wiki Remote
         run: git remote add origin https://${{ secrets.WIKI_ACTION_TOKEN }}@github.com/nanos/FediFetcher.wiki.git
       - name: Sync content
