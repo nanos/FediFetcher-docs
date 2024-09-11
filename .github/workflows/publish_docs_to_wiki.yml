@@ -4,7 +4,6 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
       - master
 
 jobs:
@@ -12,31 +11,14 @@ jobs:
     name: Publish docs to Wiki
     runs-on: ubuntu-latest
     steps:  
-      # - name: Checkout repository
-      #   uses: actions/checkout@v3
-
-
       - name: Clone Repo
         run: |
           git clone https://${{ secrets.WIKI_ACTION_TOKEN }}@github.com/nanos/FediFetcher-docs.git
-      # - name: Setup tmate session
-      #   uses: mxschmitt/action-tmate@v3
-      - name: Add Wiki Remote
-        run: |
           cd FediFetcher-docs
-          git remote -v
           git remote add upstream https://${{ secrets.WIKI_ACTION_TOKEN }}@github.com/nanos/FediFetcher.wiki.git
-      - name: Sync content
-        run: |
-          cd FediFetcher-docs
-          git config user.name wiki-bot
-          git config user.email bot@thms.uk
           git fetch origin
           git fetch upstream
           git switch master
           git merge upstream/master --no-edit
-      - name: Push content
-        run: |
-          cd FediFetcher-docs
           git push origin HEAD:master > /dev/null 2>&1
           git push upstream HEAD:master > /dev/null 2>&1
