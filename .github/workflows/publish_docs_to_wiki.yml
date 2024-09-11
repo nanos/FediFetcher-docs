@@ -11,7 +11,7 @@ jobs:
     name: Publish docs to Wiki
     runs-on: ubuntu-latest
     steps:  
-      - name: Clone Repo
+      - name: Update Wiki and Repository
         run: |
           git clone https://${{ secrets.WIKI_ACTION_TOKEN }}@github.com/nanos/FediFetcher-docs.git
           cd FediFetcher-docs
