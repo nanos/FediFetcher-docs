@@ -18,9 +18,9 @@ jobs:
         run: |
           git config user.name wiki-bot
           git config user.email bot@thms.uk
-          remote remove origin
-          remote add origin https://${{ secrets.WIKI_ACTION_TOKEN }}@github.com/nanos/FediFetcher-docs.git > /dev/null 2>&1
-          remote add upstream https://${{ secrets.WIKI_ACTION_TOKEN }}@github.com/nanos/FediFetcher.wiki.git > /dev/null 2>&1
+          git remote remove origin
+          git remote add origin https://${{ secrets.WIKI_ACTION_TOKEN }}@github.com/nanos/FediFetcher-docs.git > /dev/null 2>&1
+          git remote add upstream https://${{ secrets.WIKI_ACTION_TOKEN }}@github.com/nanos/FediFetcher.wiki.git > /dev/null 2>&1
           git fetch origin
           git fetch upstream
           git merge upstream/master --no-edit
