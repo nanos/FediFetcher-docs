@@ -19,12 +19,13 @@ jobs:
       - name: Clone Repo
         run: |
           git clone https://${{ secrets.WIKI_ACTION_TOKEN }}@github.com/nanos/FediFetcher-docs.git
+      # - name: Setup tmate session
+      #   uses: mxschmitt/action-tmate@v3
+      - name: Add Wiki Remote
+        run: |
           cd FediFetcher-docs
           ls -la
-      - name: Setup tmate session
-        uses: mxschmitt/action-tmate@v3
-      - name: Add Wiki Remote
-        run: git remote add origin https://${{ secrets.WIKI_ACTION_TOKEN }}@github.com/nanos/FediFetcher.wiki.git
+          git remote add origin https://${{ secrets.WIKI_ACTION_TOKEN }}@github.com/nanos/FediFetcher.wiki.git
       - name: Sync content
         run: |
           git config user.name wiki-bot
