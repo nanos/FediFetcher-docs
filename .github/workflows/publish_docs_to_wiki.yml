@@ -12,22 +12,27 @@ jobs:
     name: Publish docs to Wiki
     runs-on: ubuntu-latest
     steps:  
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      # - name: Checkout repository
+      #   uses: actions/checkout@v3
 
-      - name: Setup tmate session
-        uses: mxschmitt/action-tmate@v3
+      # - name: Setup tmate session
+      #   uses: mxschmitt/action-tmate@v3
 
-      - name: Pull content from wiki
+      - name: Clone Repo:
+        run: |
+          git clone https://${{ secrets.WIKI_ACTION_TOKEN }}@github.com/nanos/FediFetcher-docs.git
+          cd FediFetcher.wiki
+      - name: Add Wiki Remote
+        run: git remote add origin https://${{ secrets.WIKI_ACTION_TOKEN }}@github.com/nanos/FediFetcher.wiki.git
+      - name: Sync content
         run: |
           git config user.name wiki-bot
           git config user.email bot@thms.uk
-          git remote remove origin
-          git remote add origin https://${{ secrets.WIKI_ACTION_TOKEN }}@github.com/nanos/FediFetcher-docs.git > /dev/null 2>&1
-          git remote add upstream https://${{ secrets.WIKI_ACTION_TOKEN }}@github.com/nanos/FediFetcher.wiki.git > /dev/null 2>&1
           git fetch origin
           git fetch upstream
           git switch master
           git merge upstream/master --no-edit
+      - name: Push content
+        run: |
           git push origin HEAD:master > /dev/null 2>&1
           git push upstream HEAD:master > /dev/null 2>&1
