@@ -33,4 +33,4 @@ This documentation outlines how to run and configure FediFetcher:
 
 4. It's really important you keep FediFetcher up to date. Please check the [Updating FediFetcher documentation](https://github.com/nanos/FediFetcher/wiki/Updating-FediFetcher), for details on how to be notified of new releases, and how to install updates.
 
-5. Want to contribute? Amazing! Have a look at [Contributing To FediFetcher]((https://github.com/nanos/FediFetcher/wiki/Contributing-To-FediFetcher))
+5. Want to contribute? Amazing! Have a look at [Contribute To FediFetcher](https://github.com/nanos/FediFetcher/wiki/Contribute-To-FediFetcher)

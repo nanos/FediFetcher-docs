@@ -9,4 +9,4 @@
 4. [Configuration Options](https://github.com/nanos/FediFetcher/wiki/FediFetcher-configuration-options)
 4. [Updating FediFetcher](https://github.com/nanos/FediFetcher/wiki/Updating-FediFetcher)
 6. [Access Token Scopes](https://github.com/nanos/FediFetcher/wiki/Access-Token-Scopes)
-7. [Contributing](https://github.com/nanos/FediFetcher/wiki/Contributing-To-FediFetcher)
+7. [Contributing](https://github.com/nanos/FediFetcher/wiki/Contribute-To-FediFetcher)
