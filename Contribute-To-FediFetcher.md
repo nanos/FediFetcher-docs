@@ -48,7 +48,7 @@ I use GitHub issues to track bugs and errors. If you run into an issue with the 
 - Open an [Issue](https://github.com/nanos/FediFetcher/issues/new).
 - Explain the behaviour you would expect and the actual behaviour.
 - Please provide as much context as possible and describe the *reproduction steps* that someone else can follow to recreate the issue on their own. 
-- Include any relevant longs, and if you are running FediFetcher as GitHub Action, please link to the GitHub Action execution.
+- Include any relevant logs, and if you are running FediFetcher as GitHub Action, please link to the GitHub Action execution.
 
 ### Suggesting Enhancements
 
