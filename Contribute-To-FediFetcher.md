@@ -1,7 +1,7 @@
 <!-- omit in toc -->
 First off, thanks for taking the time to contribute! ❤️
 
-All types of contributions are encouraged and valued. See the [Table of Contents](#table-of-contents) for different ways to help and details about how this project handles them. Please make sure to read the relevant section before making your contribution. It will make it a lot easier for me and smooth out the experience for all involved. The community looks forward to your contributions. 🎉
+All types of contributions are encouraged and valued. See the [Table of Contents](#table-of-contents) for different ways to help and details about how this project handles them. The purpose of this guide is to help you, if you want to contribute but aren't quite sure how. FediFetcher is a really small project, and as such we can be quite flexible with how we accept contributions. Please see this guide as supportive, rather than restrictive.
 
 > And if you like the project, but just don't have time to contribute, that's fine. There are other easy ways to support the project and show your appreciation, which I would also be very happy about:
 > - Star the project
@@ -19,22 +19,20 @@ All types of contributions are encouraged and valued. See the [Table of Contents
   - [Improving The Documentation](#improving-the-documentation)
 - [Attribution](#attribution)
 
-
-
 ## I Have a Question
 
-> If you want to ask a question, I assume that you have read the available [Documentation](https://github.com/nanos/FediFetcher/wiki).
+If you want to ask a question, I assume that you have read the available [Documentation](https://github.com/nanos/FediFetcher/wiki).
 
-Before you ask a question, it is best to search for existing [Issues](https://github.com/nanos/FediFetcher/issues) that might help you. In case you have found a suitable issue and still need clarification, you can write your question in this issue. It is also advisable to search the internet for answers first.
+Before you ask a question, it is best to search for existing [Issues](https://github.com/nanos/FediFetcher/issues) that might help you. In case you have found a suitable issue and still need clarification, you can write your question in this issue. 
 
-If you then still feel the need to ask a question and need clarification, I recommend the following:
+If you have any other question or need clarification, I recommend the following:
 
 - Open an [Issue](https://github.com/nanos/FediFetcher/issues/new).
 - Provide as much context as you can about what you're running into.
 
 I will then take care of the issue as soon as possible.
 
-If you prefer, you can also ask me questions directly on Mastodon [@michael@thms.uk](https://mstdn.thms.uk/@michael).
+If you prefer, you can also ask me questions directly on Mastodon [@michael@thms.uk](https://mstdn.thms.uk/@michael), but please don't send me PNs - I prefer resolving issues in public, so that resolutions will be available for others to refer to in the future.
 
 ## I Want To Contribute
 
@@ -67,22 +65,21 @@ If you wish to contribute to the code of FediFetcher, you are very welcome to. I
 
 You are also free to contribute things that are not on the Issue Tracker. 
 
-Either way, to contribute, please note that I use GitHub Pull Requests to manage contributions. When you believe your code is ready, simply file a Pull Request. 
+Either way, to contribute, please note that I use GitHub Pull Requests to manage contributions. When you believe your code is ready, simply send a Pull Request. 
 
 Please provide a good description of any changes you have made, and importantly the reasoning behind them. If your contribution refers to an existing issue, please reference this issue in your Pull Request description.
 
-I will then endeavour to review your request promptly, with the aim of merging as soon as I can, but please be patient: Essentially FediFetcher is a one-man-project, and I do take holidays from time time.
+I will then endeavour to review your request promptly, with the aim of merging as soon as I can, but please be patient: FediFetcher is a 'one-man-project', and I do take holidays from time time.
 
 ### Improving The Documentation
 
-I welcome contributions to the documentation. The content of the documentation can be found in this GitHub repository https://github.com/nanos/FediFetcher-docs, and you are welcome to file Pull Requests to this.
+I welcome improvements of the documentation. The content of the documentation can be found in this GitHub repository https://github.com/nanos/FediFetcher-docs, and you are welcome to send Pull Requests there.
 
 As with contributions to the code itself, please provide a good description of any changes you have made, and importantly the reasoning behind them. If your contribution refers to an existing issue, please reference this issue in your Pull Request description.
 
-I will then endeavour to review your request promptly, with the aim of merging as soon as I can, but please be patient: Essentially FediFetcher is a one-man-project, and I do take holidays from time time.
+I will then endeavour to review your request promptly, with the aim of merging as soon as I can, but please be patient: FediFetcher is a 'one-man-project', and I do take holidays from time time.
 
 To discuss the documentation, please use the main [FediFetcher GitHub Issue Tracker](https://github.com/nanos/FediFetcher/issues).
-
 
 ## Attribution
 This guide is based on the **contributing-gen**. [Make your own](https://github.com/bttger/contributing-gen)!
