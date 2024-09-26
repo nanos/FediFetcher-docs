@@ -44,7 +44,7 @@ This guide assumes you are installing FediFetcher at `C:\FediFetcher`. If you in
 It's best to run FediFetcher once before you set it up on a schedule:
 
 ```bash
-.\find_posts.py -c=.\artifacts\config.json
+.\find_posts.py -c=./artifacts/config.json
 ```
 
 Make sure everything is working, and you don't encounter any errors. This first run may take several hours to complete, so be patient.
@@ -56,7 +56,7 @@ Make sure everything is working, and you don't encounter any errors. This first 
 3. Choose a name (e.g. FediFetcher), and optionally, enter a description so down the road you know what the task is about. Click next
 4. For trigger choose 'When the Computer Starts.' Click Next.
 5. Now, choose the Action. Select 'Start a Program.' Click Next.
-6. In the Program/script box, put `C:\FediFetcher\find_posts.py`. Now add arguments. `c=.\artifacts\config.json`. It's important to start in `C:\FediFetcher`. Now click Next.<br>
+6. In the Program/script box, put `C:\FediFetcher\find_posts.py`. Now add arguments. `c=./artifacts/config.json`. It's important to start in `C:\FediFetcher`. Now click Next.<br>
    ![FediFetcher Scheduled Task setup](https://github.com/user-attachments/assets/b64a6c0f-40e0-487b-8f16-e0ac1e9d6a2f)
 7. On the final screen double check your command, and be sure to tick "Open the properties dialog" as we need to set how often FediFetcher will run. Click 'Finish'.<br>
    ![Final confirmation dialog](https://github.com/user-attachments/assets/d2d25c42-6ad1-4c06-9947-763c9d7cb846)
