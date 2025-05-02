@@ -1,7 +1,7 @@
 In April 2025 GitHub removed a dependency that is needed to run FediFetcher as GitHub Action. 
 
 > [!IMPORTANT]  
-> If you are currently running FediFetcher as GitHub Action, you will need to run FediFetcher using another mechanism going forward. **You will have until 20th June 2025 to do so**.
+> If you are currently running FediFetcher as GitHub Action, you will need to run FediFetcher using another mechanism going forward. **You should have until 20th June 2025 to do so**.
 
 This document outlines the basic steps needed to migrate FediFetcher:
 
