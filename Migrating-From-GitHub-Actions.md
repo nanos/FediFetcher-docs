@@ -1,4 +1,4 @@
-In April 2025 GitHub removed a dependency that is needed to run FediFetcher as GitHub Action. 
+In April 2025 GitHub removed a dependency that is needed to run FediFetcher as GitHub Action. You can find more information in this comment on [Issue #198](https://github.com/nanos/FediFetcher/issues/198#issuecomment-2820574803)
 
 > [!IMPORTANT]  
 > If you are currently running FediFetcher as GitHub Action, you will need to run FediFetcher using another mechanism going forward. **You should have until 20th June 2025 to do so**.
