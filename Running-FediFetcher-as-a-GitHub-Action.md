@@ -2,9 +2,12 @@ Running FediFetcher as a GitHub Action is probably the simplest way of running F
 
 The disadvantage is that you have limited control over this, and that you cannot run FediFetcher more frequently than every 10/15 minutes.
 
-> [!NOTE]
-> There is currently an issue with GitHub Actions, and GitHub Actions may not run as desired after 60 days. Please read [#198](https://github.com/nanos/FediFetcher/issues/198#issuecomment-2820574803) for more information.
-> I currently recommend running FediFetcher another way.
+> [!IMPORTANT]  
+> Running FediFetcher as GitHub Action is now deprecated. If you are running FediFetcher as GitHub Action it will cease running by 20th June, or 60 days after you last updated FediFetcher or created your fork - whichever is later.
+> 
+>  This is due to a limitation imposed by GitHub.
+>
+> If you are currently running FediFetcher as GitHub Action please see [Migrating From GitHub Actions](https://github.com/nanos/FediFetcher/wiki/Migrating-From-GitHub-Actions) for migration details.
 
 
 **To run FediFetcher as a GitHub Action:**
