@@ -22,7 +22,7 @@ You will need to disable the GitHub Action. In order to do so, return to your ow
 
 ![Disable Workflow](disable-workflow.png)
 
-## 2. Get a new Access Token
+## 3. Get a new Access Token
 
 You will need to be able to reset your Access Token. Please refer to [Get an Access Token](https://github.com/nanos/FediFetcher/wiki/Getting-an-access-token-for-FediFetcher) to find out how.
 
@@ -40,7 +40,7 @@ In order to do that, open up the file in your favourite editor, and add it on it
 
 Please refer to [FediFetcher configuration options](https://github.com/nanos/FediFetcher/wiki/FediFetcher-configuration-options) for all configuration options
 
-## 3. Decide how you wish to run FediFetcher going forward.
+## 4. Decide how you wish to run FediFetcher going forward.
 
 You should pick from one of the following options. Each individual guide will tell you where to store your `config.json` file that you downloaded earlier:<br>
 
