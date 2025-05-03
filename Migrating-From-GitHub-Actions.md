@@ -5,7 +5,7 @@ In April 2025 GitHub removed a dependency that is needed to run FediFetcher as G
 
 This document outlines the basic steps needed to migrate FediFetcher:
 
-## 1. Get your configuration script.
+## 1. Get your configuration script
 
 You will need to grab a copy of your configuration options. You should find this in the `config.json` file in the root of your fork of FediFetcher. In order to download the file, click on it in the main repository view, then click the Download icon in the top menu bar as seen below:
 
@@ -40,7 +40,7 @@ In order to do that, open up the file in your favourite editor, and add it on it
 
 Please refer to [FediFetcher configuration options](https://github.com/nanos/FediFetcher/wiki/FediFetcher-configuration-options) for all configuration options
 
-## 4. Download your artifacts (optional, but recommended).
+## 4. Download your artifacts (optional, but recommended)
 
 Your artifacts contain all the data about previous runs of FediFetcher. If you migrate your FediFetcher from GitHub Actions without downloading these FediFetcher will not know whihch posts, accounts, and servers it has seen and processed in the past, and re-process everything from scratch, wasting a lot of resources.
 
@@ -55,7 +55,7 @@ To prevent this you can download your artifacts from your last GitHub Actions ru
 
 Extract the downloaded zip file, and copy all the individual files from it into the `artifacts` directory of your new FediFetcher install.
 
-## 5. Decide how you wish to run FediFetcher going forward.
+## 5. Decide how you wish to run FediFetcher going forward
 
 You should pick from one of the following options. Each individual guide will tell you where to store your `config.json` file that you downloaded earlier:<br>
 
