@@ -40,7 +40,22 @@ In order to do that, open up the file in your favourite editor, and add it on it
 
 Please refer to [FediFetcher configuration options](https://github.com/nanos/FediFetcher/wiki/FediFetcher-configuration-options) for all configuration options
 
-## 4. Decide how you wish to run FediFetcher going forward.
+## 4. Download your artifacts (optional, but recommended).
+
+Your artifacts contain all the data about previous runs of FediFetcher. If you migrate your FediFetcher from GitHub Actions without downloading these FediFetcher will not know whihch posts, accounts, and servers it has seen and processed in the past, and re-process everything from scratch, wasting a lot of resources.
+
+To prevent this you can download your artifacts from your last GitHub Actions run. To do so, firstly return back to your FediFetcher fork on GitHub, then:
+
+1. Click the 'Actions' tab
+2. Find the 'getAllRepliesToKnownPosts' workflow in the left column.
+3. Open up the latest workflow run
+![alt text](images/download-artifacts-1.png)
+4. Scroll down, and under 'Artifacts' click the download button. 
+![alt text](images/download-artifacts-2.png)
+
+Extract the downloaded zip file, and copy all the individual files from it into the `artifacts` directory of your new FediFetcher install.
+
+## 5. Decide how you wish to run FediFetcher going forward.
 
 You should pick from one of the following options. Each individual guide will tell you where to store your `config.json` file that you downloaded earlier:<br>
 
