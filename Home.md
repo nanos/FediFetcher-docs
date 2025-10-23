@@ -14,13 +14,6 @@ This documentation outlines how to run and configure FediFetcher:
    - [Running FediFetcher as a Scheduled Task in Windows](https://github.com/nanos/FediFetcher/wiki/Running-FediFetcher-as-a-Scheduled-Task-in-Windows)<br>
      Ideal if you are a Windows User and your main device is (almost) always running.
 
-
-
-   > [!IMPORTANT]  
-   > Running FediFetcher as GitHub Action is deprecated since May 2025. If you are running FediFetcher as GitHub Action it will cease running by 20th June.
-   >
-   > If you are currently running FediFetcher as GitHub Action please see [Migrating From GitHub Actions](https://github.com/nanos/FediFetcher/wiki/Migrating-From-GitHub-Actions) for migration details.
-
 3. Configure FediFetcher:<br>
    FediFetcher has quite a few configuration options, so here is my quick configuration advice, that should probably work for most people:<br>   
    
