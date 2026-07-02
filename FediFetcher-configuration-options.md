@@ -56,11 +56,19 @@ Option | Required? | Notes |
 | `lock-hours` | No | Determines after how many hours a lock file should be discarded. Not relevant when running the script as GitHub Action, as concurrency is prevented using a different mechanism. Recommended value: `24`.
 | `lock-file` | No | Location for the lock file. If not specified, will use `lock.lock` under the state directory. Not relevant when running the script as GitHub Action.
 | `state-dir` | No | Directory storing persistent files, and the default location for lock file. Not relevant when running the script as GitHub Action.
-| `on-start` | No | Optionally provide a callback URL that will be pinged when processing is starting. A query parameter `rid={uuid}` will automatically be appended to uniquely identify each execution. This can be used to monitor your script using a service such as healthchecks.io.
-| `on-done` | No | Optionally provide a callback URL that will be called when processing is finished.  A query parameter `rid={uuid}` will automatically be appended to uniquely identify each execution. This can be used to monitor your script using a service such as healthchecks.io.
-| `on-fail` | No | Optionally provide a callback URL that will be called when processing has failed.  A query parameter `rid={uuid}` will automatically be appended to uniquely identify each execution. This can be used to monitor your script using a service such as healthchecks.io.
+| `on-start` | No | Optionally provide a callback URL that will be pinged when processing is starting. 
+| `on-done` | No | Optionally provide a callback URL that will be called when processing is finished.  
+| `on-fail` | No | Optionally provide a callback URL that will be called when processing has failed.  
 |`log-level` | No | The severity of messages to log. Possible values are `DEBUG`, `INFO`, `WARNING`, `ERROR`, and `CRITICAL`. Defaults to `DEBUG`. |
 |`log-format` | No | The format used for logging. See the [documentation](https://docs.python.org/3/library/logging.html) for details. Defaults to `%(asctime)s: %(message)s` |
+
+## Callback URLs
+
+You can use the `on-start`, `on-done` and `on-fail` options to monitor your FediFetcher instance. The following parameters will automatically be added to these URLs to help monitoring:
+
+ - `rid={uuid}`, appended to `on-start`, `on-done`, `on-fail`: a Run ID that uniquely identifies each run. This can be used in Healthchecks.io to measure the run time of FediFetcher. 
+ - `ping={int}`, appended to `on-done`, `on-fail`: The duration of the run in milliseconds. This can be used in Uptime Kuma to measure the run time of FediFetcher
+ - `msg={string}`, appended to `on-fail`: The error message that caused the failure. This can be shown in Uptime Kuma as error message.
 
 ## Multi User support
 
