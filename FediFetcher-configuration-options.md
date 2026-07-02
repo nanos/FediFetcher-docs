@@ -67,8 +67,8 @@ Option | Required? | Notes |
 You can use the `on-start`, `on-done` and `on-fail` options to monitor your FediFetcher instance. The following parameters will automatically be added to these URLs to help monitoring:
 
  - `rid={uuid}`, appended to `on-start`, `on-done`, `on-fail`: a Run ID that uniquely identifies each run. This can be used in Healthchecks.io to measure the run time of FediFetcher. 
- - `ping={int}`, appended to `on-done`, `on-fail`: The duration of the run in milliseconds. This can be used in Uptime Kuma to measure the run time of FediFetcher
- - `msg={string}`, appended to `on-fail`: The error message that caused the failure. This can be shown in Uptime Kuma as error message.
+ - `ping={int}`, appended to `on-done`, `on-fail`: The duration of the run in milliseconds. This can be used in Uptime Kuma to measure the run time of FediFetcher.
+ - `msg={string}`, appended to `on-done`, `on-fail`: For `on-done` it'll show the duration of the run. For `on-fail` the error message that caused the failure. Both will show up in Uptime Kuma.
 
 ## Multi User support
 
