@@ -65,7 +65,18 @@ If you wish to contribute to the code of FediFetcher, you are very welcome to. I
 
 You are also free to contribute things that are not on the Issue Tracker. 
 
-Either way, to contribute, please note that I use GitHub Pull Requests to manage contributions. When you believe your code is ready, simply send a Pull Request. 
+Either way, to contribute, please note that I use GitHub Pull Requests to manage contributions. When you believe your code is ready, simply send a Pull Request.
+
+Before sending your Pull Request, please run the same checks CI does:
+
+```bash
+pip install -r requirements-dev.txt
+ruff check .
+mypy
+pytest --cov
+```
+
+For a full development setup, how the code is laid out, and recipes for common changes — adding a configuration option, or supporting a new server software — see [Working on the code](https://github.com/nanos/FediFetcher/wiki/Running-FediFetcher-as-a-cron-job).
 
 Please provide a good description of any changes you have made, and importantly the reasoning behind them. If your contribution refers to an existing issue, please reference this issue in your Pull Request description.
 
