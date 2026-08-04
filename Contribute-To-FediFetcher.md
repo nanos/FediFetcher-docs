@@ -76,7 +76,7 @@ mypy
 pytest --cov
 ```
 
-For a full development setup, how the code is laid out, and recipes for common changes — adding a configuration option, or supporting a new server software — see [Working on the code](https://github.com/nanos/FediFetcher/wiki/Running-FediFetcher-as-a-cron-job).
+For a full development setup, how the code is laid out, and recipes for common changes — adding a configuration option, or supporting a new server software — see [Working on the Code](Working-on-the-Code).
 
 Please provide a good description of any changes you have made, and importantly the reasoning behind them. If your contribution refers to an existing issue, please reference this issue in your Pull Request description.
 
