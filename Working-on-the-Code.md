@@ -105,14 +105,14 @@ parsed are all derived from that one line. There is no second place to update.
 
 This takes three small steps:
 
-1. Write `fedifetcher/api/yoursoftware.py` with a class providing `fetch_user_posts()`
-   and `fetch_context_urls()`. Copy `api/peertube.py` — it is the shortest example.
+1. Write `fedifetcher/api/yoursoftware.py` with a `to_post()` that turns one of its
+   posts into a `Post`, and a class providing `username_from()`, `post_id_from()`,
+   `fetch_user_posts()` and `fetch_context_urls()`. Copy `api/peertube.py`: it is
+   the shortest example.
 2. Add the software's name to `SOFTWARE_APIS` in `servers.py`, under the API it speaks.
    If it is a genuinely new API rather than another implementation of an existing one,
    add a value to `ApiFlavour` too.
 3. Add your class to `CLIENTS` in `api/__init__.py`.
-
-The test suite will tell you if you miss step 3.
 
 ## Writing tests
 
